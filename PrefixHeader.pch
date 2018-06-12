@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  ZhenXinGou
+//
+//  Created by Victor on 2017/11/7.
+//  Copyright © 2017年 Victor. All rights reserved.
+//
+#import "AFNetworking.h"
+#import "SVProgressHUD.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import <AVOSCloud/AVOSCloud.h>
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define VIEW_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define VIEW_WIDTH ([UIScreen mainScreen].bounds.size.width)
+
+#define Color(r, g, b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1]
+
+//#define localURL  @"https://dev.xiaoyi99.com/app"
+
+// 本地
+//#define localURL  @"http://localhost:8888/PHP"
+
+// 服务器
+#define localURL  @"http://www.victoryp.top/PHP"
+
+// 管理员
+#define manager @"17664080215 17664077725"
+#endif /* PrefixHeader_pch */
